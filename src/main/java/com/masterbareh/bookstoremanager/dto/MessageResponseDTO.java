@@ -1,4 +1,4 @@
-package com.masterbare.bookstoremanager.dto;
+package com.masterbareh.bookstoremanager.dto;
 
 import lombok.Builder;
 import lombok.Data;

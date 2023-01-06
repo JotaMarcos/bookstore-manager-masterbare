@@ -1,4 +1,4 @@
-package com.masterbare.bookstoremanager.entity;
+package com.masterbareh.bookstoremanager.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

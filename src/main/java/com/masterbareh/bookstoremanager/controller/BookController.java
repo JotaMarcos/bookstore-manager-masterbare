@@ -14,7 +14,7 @@ import javax.validation.Valid;
 @RestController
 @RequestMapping("/api/v1/books")
 public class BookController {
-    private BookService bookService;
+    private final BookService bookService;
 
      @Autowired
      public BookController(BookService bookService) {

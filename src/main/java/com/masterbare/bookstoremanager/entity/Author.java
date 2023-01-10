@@ -1,4 +1,4 @@
-package com.masterbareh.bookstoremanager.entity;
+package com.masterbare.bookstoremanager.entity;
 
 
 import lombok.AllArgsConstructor;
@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
-@Entity
+@Entity //Identifica que a classe é uma entidade
 @Data // Adiciona os métodos getters, setters, equals e hashcode
 @Builder // Padrões de projetos para a construção de objetos de forma segura
 @NoArgsConstructor // Construtores sem argumentos

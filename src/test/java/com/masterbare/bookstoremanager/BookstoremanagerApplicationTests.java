@@ -1,4 +1,4 @@
-package com.masterbareh.bookstoremanager;
+package com.masterbare.bookstoremanager;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

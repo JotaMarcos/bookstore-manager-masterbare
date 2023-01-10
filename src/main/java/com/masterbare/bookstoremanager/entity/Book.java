@@ -1,4 +1,4 @@
-package com.masterbareh.bookstoremanager.entity;
+package com.masterbare.bookstoremanager.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -39,6 +39,7 @@ public class Book {
 
     // Método de Teste
     public void author() {
+
         author.getName();
     }
 }

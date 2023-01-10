@@ -1,10 +1,10 @@
-package com.masterbareh.bookstoremanager.service;
+package com.masterbare.bookstoremanager.service;
 
-import com.masterbareh.bookstoremanager.dto.BookDTO;
-import com.masterbareh.bookstoremanager.dto.MessageResponseDTO;
-import com.masterbareh.bookstoremanager.entity.Book;
-import com.masterbareh.bookstoremanager.mapper.BookMapper;
-import com.masterbareh.bookstoremanager.repository.BookRepository;
+import com.masterbare.bookstoremanager.dto.BookDTO;
+import com.masterbare.bookstoremanager.dto.MessageResponseDTO;
+import com.masterbare.bookstoremanager.entity.Book;
+import com.masterbare.bookstoremanager.mapper.BookMapper;
+import com.masterbare.bookstoremanager.repository.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -1,4 +1,4 @@
-package com.masterbareh.bookstoremanager.dto;
+package com.masterbare.bookstoremanager.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -41,5 +41,5 @@ public class BookDTO {
 
     @Valid
     @NotNull
-    private  AuthorDTO author;
+    AuthorDTO author;
 }

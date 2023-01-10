@@ -2,6 +2,7 @@ package com.masterbare.bookstoremanager.service;
 
 import com.masterbare.bookstoremanager.dto.BookDTO;
 import com.masterbare.bookstoremanager.entity.Book;
+import com.masterbare.bookstoremanager.exception.BookNotFoundException;
 import com.masterbare.bookstoremanager.repository.BookRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -25,7 +26,7 @@ public class BookServiceTest {
     private BookService bookService;
 
     @Test
-    void whenGiveExistingIdThenReturnThisBook() {
+    void whenGiveExistingIdThenReturnThisBook() throws BookNotFoundException {
 
         Book expectedFoundBook =  createFakeBook();
 
